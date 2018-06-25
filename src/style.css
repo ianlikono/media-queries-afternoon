@@ -1,0 +1,79 @@
+body {
+  height: 100vh;
+  background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg");
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 2%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  margin: 2%;
+  margin-right: 15%;
+  cursor: pointer;
+}
+
+.indiv-links {
+  margin: 4%;
+}
+
+.top-header {
+  font-size: 2rem;
+  margin: 5%;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+.bottom-header {
+  font-size: 4rem;
+  font-weight: 1000;
+  letter-spacing: 0.5rem;
+  margin: 3%;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+  background-color: yellow;
+  border-color: yellow;
+}
+.menu {
+  display: none;
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .links {
+    display: none;
+  }
+  .menu {
+    display: inline;
+  }
+  .top-header {
+    margin-top: 10%;
+  }
+  .bottom-header {
+    font-size: 8rem;
+    font-weight: 800;
+  }
+}
